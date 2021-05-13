@@ -251,12 +251,20 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/hero-2.kit" : {
+    "\/dev\/content\/featured-work.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
+      "oAP" : "\/dev\/content\/featured-work.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/gallery&reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery&reviews.html",
       "oF" : 0
     },
     "\/dev\/content\/hero.kit" : {
@@ -267,28 +275,28 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/history.kit" : {
+    "\/dev\/content\/our-packages.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/history.html",
+      "oAP" : "\/dev\/content\/our-packages.html",
       "oF" : 0
     },
-    "\/dev\/content\/skills.kit" : {
+    "\/dev\/content\/services.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/skills.html",
+      "oAP" : "\/dev\/content\/services.html",
       "oF" : 0
     },
-    "\/dev\/content\/skynet.kit" : {
+    "\/dev\/content\/wedding-consults.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/skynet.html",
+      "oAP" : "\/dev\/content\/wedding-consults.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
