@@ -1,7 +1,12 @@
 #featured-work{
-    section{
-        display: grid;
-    grid-template-columns: 180px;
-    grid-template-areas: center;
+
+    h1{
+        text-align: center;
+        margin-top: 105px;
+    }
+    ul{
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
     }
 }

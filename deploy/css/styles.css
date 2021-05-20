@@ -391,10 +391,14 @@ footer {
   gap: 16px;
 }
 
-#featured-work section {
-  display: grid;
-  grid-template-columns: 180px;
-  grid-template-areas: center;
+#featured-work h1 {
+  text-align: center;
+  margin-top: 105px;
+}
+#featured-work ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
 }
 
 #hero {
@@ -425,6 +429,121 @@ footer {
 }
 #hero img img {
   width: 100%;
+}
+
+#our-packages img {
+  width: 320px;
+}
+@media (min-width: 768px) {
+  #our-packages img {
+    width: 311px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages img {
+    width: 422px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages img {
+    width: 630px;
+  }
+}
+#our-packages h1 {
+  text-align: right;
+  margin-left: 97px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 320px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 168px;
+    margin-right: 434px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 370px;
+    margin-right: 642px;
+  }
+}
+#our-packages #statement-our-pack {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #our-packages #statement-our-pack {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages #statement-our-pack {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages #statement-our-pack {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
+}
+#our-packages ul {
+  list-style-type: none;
+  margin-left: 55px;
+  margin-right: 32px;
+  width: 230px;
+}
+@media (min-width: 768px) {
+  #our-packages ul {
+    margin-left: 130px;
+    margin-right: 85px;
+    width: 230px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages ul {
+    margin-left: 100px;
+    margin-right: 376px;
+    width: 230px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages ul {
+    margin-left: 304px;
+    margin-right: 571px;
+    width: 230px;
+  }
+}
+#our-packages #sign-up-our-pack {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 132px;
+    margin-right: 91px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 682px;
+    margin-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 891px;
+    margin-right: 245px;
+  }
 }
 
 #services img {
@@ -460,6 +579,12 @@ footer {
     margin-left: 521px;
   }
 }
+@media (min-width: 1200px) {
+  #services h1 {
+    margin-left: 720px;
+    margin-right: 325px;
+  }
+}
 #services ul {
   list-style-type: none;
   width: 176px;
@@ -481,5 +606,13 @@ footer {
     margin-right: 40px;
     width: 260px;
     height: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  #services ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 300px;
+    height: 250px;
   }
 }
