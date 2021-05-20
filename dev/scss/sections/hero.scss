@@ -1,14 +1,30 @@
 #hero{
+    color: $Heyyyy;
+    text-align: left;
+    padding: 16px;
+    width: 290px;
+    margin-top: 30px;
+    
+    @include md{
+        width: 492px;
+        margin-left: 138px;
+        margin-right: 138px;
+    }
+
+    @include lg{
+        width: 620px;
+        margin-left: 195px;
+        margin-right: 195px;
+    }
+
+
+img{
+    
     background-image: url('..img/hero/Couple_5.jpg');
     background-position: center center;
     height: 631px;
     img{
         width: 100%;
     }
-
-    section{
-        display: grid;
-        grid-template-columns: auto 292px auto;
-        grid-template-areas: center;
-    }
+}
 }

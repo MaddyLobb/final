@@ -398,15 +398,31 @@ footer {
 }
 
 #hero {
+  color: #936F4B;
+  text-align: left;
+  padding: 16px;
+  width: 290px;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #hero {
+    width: 492px;
+    margin-left: 138px;
+    margin-right: 138px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    width: 620px;
+    margin-left: 195px;
+    margin-right: 195px;
+  }
+}
+#hero img {
   background-image: url("..img/hero/Couple_5.jpg");
   background-position: center center;
   height: 631px;
 }
-#hero img {
+#hero img img {
   width: 100%;
-}
-#hero section {
-  display: grid;
-  grid-template-columns: auto 292px auto;
-  grid-template-areas: center;
 }
