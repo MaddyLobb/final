@@ -382,6 +382,11 @@ textarea {
 /* =============
     Header
 ============= */
+header ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 /* =============
     Footer
 ============= */
