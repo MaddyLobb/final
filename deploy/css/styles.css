@@ -386,9 +386,94 @@ textarea {
     Footer
 ============= */
 footer {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: auto 296px auto;
   gap: 16px;
+}
+
+#about-us img {
+  width: 321px;
+}
+@media (min-width: 768px) {
+  #about-us img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us img {
+    width: 711px;
+  }
+}
+#about-us h1 {
+  margin-left: 114px;
+}
+@media (min-width: 768px) {
+  #about-us h1 {
+    margin-right: 9px;
+    margin-left: 387px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us h1 {
+    margin-right: 118px;
+    margin-left: 521px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us h1 {
+    margin-left: 720px;
+    margin-right: 325px;
+  }
+}
+#about-us p {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #about-us p {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us p {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us p {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
+}
+#about-us h4 {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #about-us h4 {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us h4 {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us h4 {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
 }
 
 #featured-work h1 {
@@ -399,6 +484,52 @@ footer {
   list-style-type: none;
   text-decoration: none;
   text-align: center;
+}
+
+#gallery-reviews img {
+  width: 321px;
+}
+@media (min-width: 768px) {
+  #gallery-reviews img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-reviews img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery-reviews img {
+    width: 711px;
+  }
+}
+#gallery-reviews ul {
+  list-style-type: none;
+  width: 400px;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+@media (min-width: 768px) {
+  #gallery-reviews ul {
+    margin-left: 304px;
+    margin-right: 53px;
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-reviews ul {
+    margin-left: 401px;
+    margin-right: 40px;
+    width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery-reviews ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 500px;
+  }
 }
 
 #hero {
@@ -614,5 +745,102 @@ footer {
     margin-left: 594px;
     width: 300px;
     height: 250px;
+  }
+}
+
+#wedding-consults img {
+  width: 320px;
+}
+@media (min-width: 768px) {
+  #wedding-consults img {
+    width: 311px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults img {
+    width: 422px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults img {
+    width: 630px;
+  }
+}
+#wedding-consults h1 {
+  text-align: left;
+  margin-left: 97px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #wedding-consults h1 {
+    margin-left: 20px;
+    margin-right: 320px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults h1 {
+    margin-left: 168px;
+    margin-right: 434px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults h1 {
+    text-align: right;
+    margin-left: 370px;
+    margin-right: 642px;
+  }
+}
+#wedding-consults ul {
+  list-style-type: none;
+  width: 176px;
+  height: 386px;
+  margin-left: 68px;
+  margin-right: 68px;
+  margin-bottom: 205px;
+}
+@media (min-width: 768px) {
+  #wedding-consults ul {
+    margin-left: 304px;
+    margin-right: 53px;
+    width: 176px;
+    height: 382px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults ul {
+    margin-left: 401px;
+    margin-right: 40px;
+    width: 260px;
+    height: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 300px;
+    height: 250px;
+  }
+}
+#wedding-consults #forms-consults {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #wedding-consults #forms-consults {
+    margin-left: 304px;
+    margin-right: 53px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults #forms-consults {
+    margin-left: 401px;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults #forms-consults {
+    margin-right: 202px;
+    margin-left: 594px;
   }
 }

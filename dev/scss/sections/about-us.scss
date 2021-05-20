@@ -1,0 +1,76 @@
+#about-us{
+
+    img{
+        width: 321px;
+ 
+        @include md{
+            width: 373px;
+        }
+        
+        @include lg{
+            width: 503px;
+        }
+ 
+        @include xl{
+            width: 711px;
+        }
+     }
+
+     h1{
+        margin-left: 114px;
+
+        @include md{
+            margin-right: 9px;
+            margin-left: 387px;
+        }
+
+        @include lg{
+            margin-right: 118px;
+            margin-left: 521px;
+        }
+        @include xl{
+            margin-left: 720px;
+            margin-right: 325px;
+        }
+    }
+
+    p{
+        margin: 16px;
+        width: 291px; 
+        
+        @include md{
+          margin-left: 293px;
+          margin-right: 226px;  
+        }
+  
+          @include lg{
+              margin-left: 471px;
+              margin-right: 305px;
+          }
+  
+          @include xl{
+              margin-left: 674px;
+              margin-right: 510px;
+          }
+    }
+
+    h4{
+        margin: 16px;
+        width: 291px; 
+        
+        @include md{
+          margin-left: 293px;
+          margin-right: 226px;  
+        }
+  
+          @include lg{
+              margin-left: 471px;
+              margin-right: 305px;
+          }
+  
+          @include xl{
+              margin-left: 674px;
+              margin-right: 510px;
+          }
+    }
+}
