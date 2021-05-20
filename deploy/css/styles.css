@@ -385,3 +385,28 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: auto 296px auto;
+  gap: 16px;
+}
+
+#featured-work section {
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-areas: center;
+}
+
+#hero {
+  background-image: url("..img/hero/Couple_5.jpg");
+  background-position: center center;
+  height: 631px;
+}
+#hero img {
+  width: 100%;
+}
+#hero section {
+  display: grid;
+  grid-template-columns: auto 292px auto;
+  grid-template-areas: center;
+}

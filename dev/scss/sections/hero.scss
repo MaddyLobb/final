@@ -1,0 +1,14 @@
+#hero{
+    background-image: url('..img/hero/Couple_5.jpg');
+    background-position: center center;
+    height: 631px;
+    img{
+        width: 100%;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: auto 292px auto;
+        grid-template-areas: center;
+    }
+}
