@@ -21,6 +21,7 @@
         margin-left: 97px;
         margin-right: 16px;
         color: $BrowGrass;
+        font-family: 'Roboto', sans-serif;
 
         @include md{
             margin-left: 20px;
@@ -49,6 +50,7 @@
        background: $BlueLagoon;
        padding: 20px;
        color: white;
+       font-family: 'Lora', serif;
 
        @include md{
         margin-left: 304px;
@@ -97,5 +99,6 @@
     #Sign-Up-Consults{
         color: $BrowGrass;
         margin-left: 16px;
+        font-family: 'Lora', serif;
     }
 }

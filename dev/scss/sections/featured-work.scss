@@ -4,6 +4,7 @@
         color: $BrowGrass;
         text-align: center;
         margin-top: 105px;
+        font-family: 'Roboto', sans-serif;
     }
     ul{
         list-style-type: none;
@@ -15,6 +16,7 @@
         width: 315px;
         column-count: 3;
         color: white;
+        font-family: 'Lora', serif;
 
         @include md{
             width: 677px;
