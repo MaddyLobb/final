@@ -1,0 +1,44 @@
+#gallery-reviews{
+
+    img{
+        width: 321px;
+ 
+        @include md{
+            width: 373px;
+        }
+        
+        @include lg{
+            width: 503px;
+        }
+ 
+        @include xl{
+            width: 711px;
+        }
+     }
+
+     ul{
+        list-style-type: none;
+       width: 400px;
+       margin-left: 68px;
+       margin-right: 68px;
+
+       @include md{
+        margin-left: 304px;
+        margin-right: 53px; 
+        width: 400px;  
+       }
+
+       @include lg{
+         margin-left: 401px;
+         margin-right: 40px; 
+        width: 500px;
+       }
+
+       @include xl{
+           margin-right: 202px;
+           margin-left: 594px;
+           width: 500px;
+       }
+
+    }
+}

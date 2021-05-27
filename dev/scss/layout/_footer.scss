@@ -1,3 +1,9 @@
 /* =============
     Footer
 ============= */
+footer{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto 296px auto;
+    gap: 16px;
+}

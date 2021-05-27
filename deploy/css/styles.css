@@ -382,6 +382,470 @@ textarea {
 /* =============
     Header
 ============= */
+header ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto 296px auto;
+  gap: 16px;
+}
+
+#about-us img {
+  width: 321px;
+}
+@media (min-width: 768px) {
+  #about-us img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us img {
+    width: 711px;
+  }
+}
+#about-us h1 {
+  margin-left: 114px;
+}
+@media (min-width: 768px) {
+  #about-us h1 {
+    margin-right: 9px;
+    margin-left: 387px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us h1 {
+    margin-right: 118px;
+    margin-left: 521px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us h1 {
+    margin-left: 720px;
+    margin-right: 325px;
+  }
+}
+#about-us p {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #about-us p {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us p {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us p {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
+}
+#about-us h4 {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #about-us h4 {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-us h4 {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us h4 {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
+}
+
+#featured-work h1 {
+  text-align: center;
+  margin-top: 105px;
+}
+#featured-work ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+#gallery-reviews img {
+  width: 321px;
+}
+@media (min-width: 768px) {
+  #gallery-reviews img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-reviews img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery-reviews img {
+    width: 711px;
+  }
+}
+#gallery-reviews ul {
+  list-style-type: none;
+  width: 400px;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+@media (min-width: 768px) {
+  #gallery-reviews ul {
+    margin-left: 304px;
+    margin-right: 53px;
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-reviews ul {
+    margin-left: 401px;
+    margin-right: 40px;
+    width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery-reviews ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 500px;
+  }
+}
+
+#hero {
+  color: #936F4B;
+  text-align: left;
+  padding: 16px;
+  width: 290px;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #hero {
+    width: 492px;
+    margin-left: 138px;
+    margin-right: 138px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    width: 620px;
+    margin-left: 195px;
+    margin-right: 195px;
+  }
+}
+#hero img {
+  background-image: url("..img/hero/Couple_5.jpg");
+  background-position: center center;
+  height: 631px;
+}
+#hero img img {
+  width: 100%;
+}
+
+#our-packages img {
+  width: 320px;
+}
+@media (min-width: 768px) {
+  #our-packages img {
+    width: 311px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages img {
+    width: 422px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages img {
+    width: 630px;
+  }
+}
+#our-packages h1 {
+  text-align: right;
+  margin-left: 97px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 320px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 168px;
+    margin-right: 434px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages h1 {
+    text-align: right;
+    margin-left: 370px;
+    margin-right: 642px;
+  }
+}
+#our-packages #statement-our-pack {
+  margin: 16px;
+  width: 291px;
+}
+@media (min-width: 768px) {
+  #our-packages #statement-our-pack {
+    margin-left: 293px;
+    margin-right: 226px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages #statement-our-pack {
+    margin-left: 471px;
+    margin-right: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages #statement-our-pack {
+    margin-left: 674px;
+    margin-right: 510px;
+  }
+}
+#our-packages ul {
+  list-style-type: none;
+  margin-left: 55px;
+  margin-right: 32px;
+  width: 230px;
+}
+@media (min-width: 768px) {
+  #our-packages ul {
+    margin-left: 130px;
+    margin-right: 85px;
+    width: 230px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages ul {
+    margin-left: 100px;
+    margin-right: 376px;
+    width: 230px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages ul {
+    margin-left: 304px;
+    margin-right: 571px;
+    width: 230px;
+  }
+}
+#our-packages #sign-up-our-pack {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 132px;
+    margin-right: 91px;
+  }
+}
+@media (min-width: 1024px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 682px;
+    margin-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  #our-packages #sign-up-our-pack {
+    margin-left: 891px;
+    margin-right: 245px;
+  }
+}
+
+#services img {
+  width: 321px;
+}
+@media (min-width: 768px) {
+  #services img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  #services img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #services img {
+    width: 711px;
+  }
+}
+#services h1 {
+  margin-left: 114px;
+}
+@media (min-width: 768px) {
+  #services h1 {
+    margin-right: 9px;
+    margin-left: 387px;
+  }
+}
+@media (min-width: 1024px) {
+  #services h1 {
+    margin-right: 118px;
+    margin-left: 521px;
+  }
+}
+@media (min-width: 1200px) {
+  #services h1 {
+    margin-left: 720px;
+    margin-right: 325px;
+  }
+}
+#services ul {
+  list-style-type: none;
+  width: 176px;
+  height: 386px;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+@media (min-width: 768px) {
+  #services ul {
+    margin-left: 304px;
+    margin-right: 53px;
+    width: 176px;
+    height: 382px;
+  }
+}
+@media (min-width: 1024px) {
+  #services ul {
+    margin-left: 401px;
+    margin-right: 40px;
+    width: 260px;
+    height: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  #services ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 300px;
+    height: 250px;
+  }
+}
+
+#wedding-consults img {
+  width: 320px;
+}
+@media (min-width: 768px) {
+  #wedding-consults img {
+    width: 311px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults img {
+    width: 422px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults img {
+    width: 630px;
+  }
+}
+#wedding-consults h1 {
+  text-align: left;
+  margin-left: 97px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #wedding-consults h1 {
+    margin-left: 20px;
+    margin-right: 320px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults h1 {
+    margin-left: 168px;
+    margin-right: 434px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults h1 {
+    text-align: right;
+    margin-left: 370px;
+    margin-right: 642px;
+  }
+}
+#wedding-consults ul {
+  list-style-type: none;
+  width: 176px;
+  height: 386px;
+  margin-left: 68px;
+  margin-right: 68px;
+  margin-bottom: 205px;
+}
+@media (min-width: 768px) {
+  #wedding-consults ul {
+    margin-left: 304px;
+    margin-right: 53px;
+    width: 176px;
+    height: 382px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults ul {
+    margin-left: 401px;
+    margin-right: 40px;
+    width: 260px;
+    height: 275px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults ul {
+    margin-right: 202px;
+    margin-left: 594px;
+    width: 300px;
+    height: 250px;
+  }
+}
+#wedding-consults #forms-consults {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  #wedding-consults #forms-consults {
+    margin-left: 304px;
+    margin-right: 53px;
+  }
+}
+@media (min-width: 1024px) {
+  #wedding-consults #forms-consults {
+    margin-left: 401px;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #wedding-consults #forms-consults {
+    margin-right: 202px;
+    margin-left: 594px;
+  }
+}
