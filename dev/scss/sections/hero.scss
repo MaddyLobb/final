@@ -28,3 +28,23 @@ img{
     }
 }
 }
+
+img{
+    width: 321px;
+    list-style-type: none;
+    display: grid;
+    gap: 30px;
+    grid-template-areas: couple1;
+
+    @include md{
+        width: 373px;
+    }
+    
+    @include lg{
+        width: 503px;
+    }
+
+    @include xl{
+        width: 711px;
+    }
+ }

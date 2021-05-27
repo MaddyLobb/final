@@ -6,25 +6,6 @@
         margin-left: 16px;
     }
 
-    img{
-        width: 321px;
-        list-style-type: none;
-        display: grid;
-        gap: 30px;
-        grid-template-areas: couple1;
- 
-        @include md{
-            width: 373px;
-        }
-        
-        @include lg{
-            width: 503px;
-        }
- 
-        @include xl{
-            width: 711px;
-        }
-     }
 
     #quotes{
         list-style-type: none;
@@ -55,10 +36,81 @@
 
     }
 
-    #gallery-Images{
+    #Gallery-Images{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". Gallery-Images .";
+
+        grid-area: Gallery-Images;
         display: grid;
         gap: 30px;
-        grid-template-columns: couple1;
+        grid-template-areas: "couple1";
+
+        @include md{
+            grid-template-areas: "couple2 Couple4"
+            "ring1 couple4"
+            "couple1 table1";
+            grid-template-columns: 374px 374px;
+        }
+
+        @include lg{
+            grid-template-areas: "table2 couple2 couple4"
+            "table2 table1 ring1 couple4"
+            "couple1 couple1 couple4"
+            "couple1 couple1 couple4";
+            grid-template-columns: 342px 300px 342px;
+        }
+
+        @include xl{
+            grid-template-areas: "table2 couple2 couple4"
+            "table2 table1 ring1 couple4"
+            "couple1 couple1 couple4"
+            "couple1 couple1 couple4"; 
+            grid-template-columns: 390px 460px 550px;
+
+        #couple1{
+            grid-area: couple1;
+        }
+
+        #couple2{
+            display: none;
+            @include md{
+                display: list-item;
+                grid-area: couple2;
+            }
+        }
+
+        #couple4{
+            display: none;
+            @include md{
+                display: list-item;
+                grid-area: couple4;
+            }
+        }
+
+        #ring1{
+            display: none;
+            @include lg{
+                display: list-item;
+                grid-area: ring1;
+            }
+        }
+
+        #table1{
+            display: none;
+            @include md{
+                display: list-item;
+                grid-area: table1;
+            }
+        }
+
+        #table2{
+            display: none;
+            @include lg{
+                display: list-item;
+                grid-area: table2;
+            }
+        }
     }
-    
 }
