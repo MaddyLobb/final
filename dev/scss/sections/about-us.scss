@@ -18,6 +18,7 @@
 
      h1{
         margin-left: 114px;
+        color: $BrowGrass;
 
         @include md{
             margin-right: 9px;
@@ -36,7 +37,10 @@
 
     p{
         margin: 16px;
-        width: 291px; 
+        width: 291px;
+        background: $BlueLagoon;
+        padding: 20px;
+        color: white; 
         
         @include md{
           margin-left: 293px;
@@ -56,8 +60,8 @@
 
     h4{
         margin: 16px;
-        width: 291px; 
-        
+        width: 291px;
+        color: $BrowGrass;
         @include md{
           margin-left: 293px;
           margin-right: 226px;  

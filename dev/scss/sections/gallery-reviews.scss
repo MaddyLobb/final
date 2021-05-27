@@ -1,7 +1,17 @@
 #gallery-reviews{
 
+    h1{
+        color: $BrowGrass;
+        margin-right: 89px;
+        margin-left: 16px;
+    }
+
     img{
         width: 321px;
+        list-style-type: none;
+        display: grid;
+        gap: 30px;
+        grid-template-areas: couple1;
  
         @include md{
             width: 373px;
@@ -16,11 +26,14 @@
         }
      }
 
-     ul{
+    #quotes{
         list-style-type: none;
        width: 400px;
        margin-left: 68px;
        margin-right: 68px;
+       background: $BlueLagoon;
+       padding: 20px;
+       color: white;
 
        @include md{
         margin-left: 304px;
@@ -41,4 +54,11 @@
        }
 
     }
+
+    #gallery-Images{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: couple1;
+    }
+    
 }

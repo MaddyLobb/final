@@ -3,7 +3,10 @@
 ============= */
 footer{
     margin-top: 40px;
+    margin-left: 20px;
     display: grid;
     grid-template-columns: auto 296px auto;
     gap: 16px;
+    background: $TA-DA;
+    color: white;
 }

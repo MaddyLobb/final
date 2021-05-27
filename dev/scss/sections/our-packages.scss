@@ -20,6 +20,7 @@
         text-align: right;
         margin-left: 97px;
         margin-right: 16px;
+        color: $BrowGrass;
 
         @include md{
             text-align: right;
@@ -43,6 +44,9 @@
     #statement-our-pack{
       margin: 16px;
       width: 291px; 
+      background: $BlueLagoon;
+      padding: 20px;
+      color: white;
       
       @include md{
         margin-left: 293px;
@@ -66,6 +70,9 @@
         margin-left: 55px;
         margin-right: 32px;
         width: 230px;
+        background: $MustySky;
+        padding: 20px;
+        color: white;
 
         @include md{
             margin-left: 130px;
@@ -89,6 +96,7 @@
 
     #sign-up-our-pack{
         text-align: center;
+        color: $BrowGrass;
 
         @include md{
             margin-left: 132px;

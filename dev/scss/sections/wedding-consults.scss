@@ -20,6 +20,7 @@
         text-align: left;
         margin-left: 97px;
         margin-right: 16px;
+        color: $BrowGrass;
 
         @include md{
             margin-left: 20px;
@@ -41,10 +42,13 @@
     ul{
         list-style-type: none;
        width: 176px;
-       height: 386px;
+       //height: 386px;
        margin-left: 68px;
        margin-right: 68px;
        margin-bottom: 205px;
+       background: $BlueLagoon;
+       padding: 20px;
+       color: white;
 
        @include md{
         margin-left: 304px;
@@ -72,6 +76,7 @@
     #forms-consults{
         margin-left: 16px;
         margin-right: 16px;
+        column-count: 1;
         
         @include md{
             margin-left: 304px;
@@ -87,5 +92,10 @@
             margin-right: 202px;
             margin-left: 594px;
         }
-    }   
+    } 
+    
+    #Sign-Up-Consults{
+        color: $BrowGrass;
+        margin-left: 16px;
+    }
 }
