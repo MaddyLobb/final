@@ -482,6 +482,7 @@ footer {
 }
 
 #featured-work h1 {
+  color: #936F4B;
   text-align: center;
   margin-top: 105px;
 }
@@ -702,6 +703,7 @@ footer {
 }
 #services h1 {
   margin-left: 114px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #services h1 {
