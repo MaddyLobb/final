@@ -1,0 +1,66 @@
+#services{
+
+    img{
+       width: 321px;
+
+       @include md{
+           width: 373px;
+       }
+       
+       @include lg{
+           width: 503px;
+       }
+
+       @include xl{
+           width: 711px;
+       }
+    }
+
+    h1{
+        margin-left: 114px;
+
+        @include md{
+            margin-right: 9px;
+            margin-left: 387px;
+        }
+
+        @include lg{
+            margin-right: 118px;
+            margin-left: 521px;
+        }
+        @include xl{
+            margin-left: 720px;
+            margin-right: 325px;
+        }
+    }
+
+    ul{
+        list-style-type: none;
+       width: 176px;
+       height: 386px;
+       margin-left: 68px;
+       margin-right: 68px;
+
+       @include md{
+        margin-left: 304px;
+        margin-right: 53px; 
+        width: 176px;
+        height: 382px;  
+       }
+
+       @include lg{
+         margin-left: 401px;
+         margin-right: 40px; 
+        width: 260px;
+        height: 275px; 
+       }
+
+       @include xl{
+           margin-right: 202px;
+           margin-left: 594px;
+           width: 300px;
+           height: 250px;
+       }
+
+    }
+}
