@@ -20,6 +20,8 @@
         text-align: right;
         margin-left: 97px;
         margin-right: 16px;
+        color: $BrowGrass;
+        font-family: 'Roboto', sans-serif;
 
         @include md{
             text-align: right;
@@ -43,6 +45,10 @@
     #statement-our-pack{
       margin: 16px;
       width: 291px; 
+      background: $BlueLagoon;
+      padding: 20px;
+      color: white;
+      font-family: 'Lora', serif;
       
       @include md{
         margin-left: 293px;
@@ -66,6 +72,10 @@
         margin-left: 55px;
         margin-right: 32px;
         width: 230px;
+        background: $MustySky;
+        padding: 20px;
+        color: white;
+        font-family: 'Lora', serif;
 
         @include md{
             margin-left: 130px;
@@ -89,6 +99,8 @@
 
     #sign-up-our-pack{
         text-align: center;
+        color: $BrowGrass;
+        font-family: 'Lora', serif;
 
         @include md{
             margin-left: 132px;

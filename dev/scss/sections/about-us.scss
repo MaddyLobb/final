@@ -18,6 +18,9 @@
 
      h1{
         margin-left: 114px;
+        color: $BrowGrass;
+        font-family: 'Roboto', sans-serif;
+        font-size: 300px;
 
         @include md{
             margin-right: 9px;
@@ -36,7 +39,11 @@
 
     p{
         margin: 16px;
-        width: 291px; 
+        width: 291px;
+        background: $BlueLagoon;
+        padding: 20px;
+        color: white; 
+        font-family: 'Lora', serif;
         
         @include md{
           margin-left: 293px;
@@ -56,8 +63,9 @@
 
     h4{
         margin: 16px;
-        width: 291px; 
-        
+        width: 291px;
+        color: $BrowGrass;
+        font-family: 'Lora', serif;
         @include md{
           margin-left: 293px;
           margin-right: 226px;  

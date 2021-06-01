@@ -392,9 +392,12 @@ header ul {
 ============= */
 footer {
   margin-top: 40px;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: auto 296px auto;
   gap: 16px;
+  background: #A7A58D;
+  color: white;
 }
 
 #about-us img {
@@ -417,6 +420,7 @@ footer {
 }
 #about-us h1 {
   margin-left: 114px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #about-us h1 {
@@ -439,6 +443,9 @@ footer {
 #about-us p {
   margin: 16px;
   width: 291px;
+  background: #6C7F85;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
   #about-us p {
@@ -461,6 +468,7 @@ footer {
 #about-us h4 {
   margin: 16px;
   width: 291px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #about-us h4 {
@@ -482,58 +490,155 @@ footer {
 }
 
 #featured-work h1 {
+  color: #CEA074;
   text-align: center;
   margin-top: 105px;
 }
 #featured-work ul {
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
-}
-
-#gallery-reviews img {
-  width: 321px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background: #6C7F85;
+  padding: 20px;
+  width: 315px;
+  column-count: 3;
+  color: white;
 }
 @media (min-width: 768px) {
-  #gallery-reviews img {
-    width: 373px;
+  #featured-work ul {
+    width: 677px;
+    margin-left: 46px;
+    margin-right: 46px;
   }
 }
 @media (min-width: 1024px) {
-  #gallery-reviews img {
-    width: 503px;
+  #featured-work ul {
+    width: 942px;
+    margin-left: 255px;
+    margin-right: 255px;
   }
 }
 @media (min-width: 1200px) {
-  #gallery-reviews img {
-    width: 711px;
+  #featured-work ul {
+    width: 947px;
+    margin-left: 255px;
+    margin-right: 255px;
   }
 }
-#gallery-reviews ul {
+
+#gallery-reviews h1 {
+  color: #CEA074;
+  margin-right: 89px;
+  margin-left: 16px;
+}
+#gallery-reviews #quotes {
   list-style-type: none;
   width: 400px;
   margin-left: 68px;
   margin-right: 68px;
+  background: #6C7F85;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
-  #gallery-reviews ul {
+  #gallery-reviews #quotes {
     margin-left: 304px;
     margin-right: 53px;
     width: 400px;
   }
 }
 @media (min-width: 1024px) {
-  #gallery-reviews ul {
+  #gallery-reviews #quotes {
     margin-left: 401px;
     margin-right: 40px;
     width: 500px;
   }
 }
 @media (min-width: 1200px) {
-  #gallery-reviews ul {
+  #gallery-reviews #quotes {
     margin-right: 202px;
     margin-left: 594px;
     width: 500px;
+  }
+}
+#gallery-reviews #Gallery-Images {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". Gallery-Images .";
+  grid-area: Gallery-Images;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "couple1";
+}
+@media (min-width: 768px) {
+  #gallery-reviews #Gallery-Images {
+    grid-template-areas: "couple2 Couple4" "ring1 couple4" "couple1 table1";
+    grid-template-columns: 374px 374px;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-reviews #Gallery-Images {
+    grid-template-areas: "table2 couple2 couple4" "table2 table1 ring1 couple4" "couple1 couple1 couple4" "couple1 couple1 couple4";
+    grid-template-columns: 342px 300px 342px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery-reviews #Gallery-Images {
+    grid-template-areas: "table2 couple2 couple4" "table2 table1 ring1 couple4" "couple1 couple1 couple4" "couple1 couple1 couple4";
+    grid-template-columns: 390px 460px 550px;
+  }
+}
+#gallery-reviews #Gallery-Images img {
+  width: 100%;
+}
+#gallery-reviews #Gallery-Images #couple1 {
+  grid-area: couple1;
+}
+#gallery-reviews #Gallery-Images #couple2 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #gallery-reviews #Gallery-Images #couple2 {
+    display: list-item;
+    grid-area: couple2;
+  }
+}
+#gallery-reviews #Gallery-Images #couple4 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #gallery-reviews #Gallery-Images #couple4 {
+    display: list-item;
+    grid-area: couple4;
+  }
+}
+#gallery-reviews #Gallery-Images #ring1 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #gallery-reviews #Gallery-Images #ring1 {
+    display: list-item;
+    grid-area: ring1;
+  }
+}
+#gallery-reviews #Gallery-Images #table1 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #gallery-reviews #Gallery-Images #table1 {
+    display: list-item;
+    grid-area: table1;
+  }
+}
+#gallery-reviews #Gallery-Images #table2 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #gallery-reviews #Gallery-Images #table2 {
+    display: list-item;
+    grid-area: table2;
   }
 }
 
@@ -567,6 +672,29 @@ footer {
   width: 100%;
 }
 
+img {
+  width: 321px;
+  list-style-type: none;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: couple1;
+}
+@media (min-width: 768px) {
+  img {
+    width: 373px;
+  }
+}
+@media (min-width: 1024px) {
+  img {
+    width: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  img {
+    width: 711px;
+  }
+}
+
 #our-packages img {
   width: 320px;
 }
@@ -589,6 +717,7 @@ footer {
   text-align: right;
   margin-left: 97px;
   margin-right: 16px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #our-packages h1 {
@@ -614,6 +743,9 @@ footer {
 #our-packages #statement-our-pack {
   margin: 16px;
   width: 291px;
+  background: #6C7F85;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
   #our-packages #statement-our-pack {
@@ -638,6 +770,9 @@ footer {
   margin-left: 55px;
   margin-right: 32px;
   width: 230px;
+  background: #828278;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
   #our-packages ul {
@@ -662,6 +797,7 @@ footer {
 }
 #our-packages #sign-up-our-pack {
   text-align: center;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #our-packages #sign-up-our-pack {
@@ -702,6 +838,7 @@ footer {
 }
 #services h1 {
   margin-left: 114px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #services h1 {
@@ -722,18 +859,19 @@ footer {
   }
 }
 #services ul {
-  list-style-type: none;
   width: 176px;
-  height: 386px;
   margin-left: 68px;
   margin-right: 68px;
+  list-style-type: none;
+  background: #6C7F85;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
   #services ul {
     margin-left: 304px;
     margin-right: 53px;
     width: 176px;
-    height: 382px;
   }
 }
 @media (min-width: 1024px) {
@@ -741,7 +879,6 @@ footer {
     margin-left: 401px;
     margin-right: 40px;
     width: 260px;
-    height: 275px;
   }
 }
 @media (min-width: 1200px) {
@@ -749,7 +886,6 @@ footer {
     margin-right: 202px;
     margin-left: 594px;
     width: 300px;
-    height: 250px;
   }
 }
 
@@ -775,6 +911,7 @@ footer {
   text-align: left;
   margin-left: 97px;
   margin-right: 16px;
+  color: #CEA074;
 }
 @media (min-width: 768px) {
   #wedding-consults h1 {
@@ -798,10 +935,12 @@ footer {
 #wedding-consults ul {
   list-style-type: none;
   width: 176px;
-  height: 386px;
   margin-left: 68px;
   margin-right: 68px;
   margin-bottom: 205px;
+  background: #6C7F85;
+  padding: 20px;
+  color: white;
 }
 @media (min-width: 768px) {
   #wedding-consults ul {
@@ -830,6 +969,7 @@ footer {
 #wedding-consults #forms-consults {
   margin-left: 16px;
   margin-right: 16px;
+  column-count: 1;
 }
 @media (min-width: 768px) {
   #wedding-consults #forms-consults {
@@ -848,4 +988,8 @@ footer {
     margin-right: 202px;
     margin-left: 594px;
   }
+}
+#wedding-consults #Sign-Up-Consults {
+  color: #CEA074;
+  margin-left: 16px;
 }
