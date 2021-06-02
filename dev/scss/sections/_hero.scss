@@ -18,34 +18,23 @@
         margin-right: 195px;
     }
 
-
-img{
-    
-    background-image: url('..img/hero/Couple_5.jpg');
-    background-position: center center;
-    height: 631px;
     img{
-        width: 100%;
-    }
-}
-}
-
-img{
-    width: 321px;
-    list-style-type: none;
-    display: grid;
-    gap: 30px;
-    grid-template-areas: couple1;
-
-    @include md{
-        width: 373px;
-    }
+        width: 321px;
+        list-style-type: none;
+        display: grid;
+        gap: 30px;
+        grid-template-areas: couple1;
     
-    @include lg{
-        width: 503px;
-    }
-
-    @include xl{
-        width: 711px;
-    }
- }
+        @include md{
+            width: 373px;
+        }
+        
+        @include lg{
+            width: 503px;
+        }
+    
+        @include xl{
+            width: 711px;
+        }
+     }
+}
