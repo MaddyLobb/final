@@ -1,45 +1,122 @@
 #gallery-reviews{
+
+    .container{
+        max-height:164px;
+        overflow: hidden;
+
+        @include md{
+            max-height: 200px;
+            overflow: hidden;   
+        }
+
+        @include lg{
+            max-height:305px;
+            overflow: hidden;
+        }
+      }
+      img{
+        width:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include md{
+            width: 800px;
+        }
+
+        @include lg{
+            width: 1034px;
+        }
+    }
     h1{
         color: $BrowGrass;
-        margin-right: 89px;
-        margin-left: 16px;
+        //margin-left: 16px;
         font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+
+        @include md{
+            font-size: 60px;
+            margin-left: 220px;
+        }
+
+        @include lg{
+            margin-left: 260px;
+        }
+
+        @include xl{
+            margin-left: 400px;
+        }
     }
 
     #quotes{
         list-style-type: none;
-        width: 400px;
-        margin-left: 68px;
-        margin-right: 68px;
-        background: $BlueLagoon;
-        padding: 20px;
-        color: white;
-        font-family: 'Lora', serif;;
+        font-family: 'Lora', serif;
+        
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: ". quotes .";
+
+        grid-area: quotes;
+        display: grid;
+        gap: 30px;
+        grid-template-areas: "MD";
 
        @include md{
-            margin-left: 304px;
-            margin-right: 53px; 
-            width: 400px;  
-       }
+            grid-template-areas: "MD MD"
+            "AB CA";
+            grid-template-columns: 300px 300px;
+            margin-left: 150px;
+        }
 
        @include lg{
-            margin-left: 401px;
-            margin-right: 40px; 
-            width: 500px;
-       }
+            grid-template-areas: "MD AB CA";
+            grid-template-columns: 300px 300px 300px;
+            margin-left: 200px;
+        }
 
        @include xl{
-           margin-right: 202px;
-           margin-left: 594px;
-           width: 500px;
-       }
+            grid-template-areas: "MD AB CA";
+            grid-template-columns: 300px 300px 300px;
+            margin-left: 320px;
+        }
+
+        #MD{
+            grid-area: MD;
+            background-color: $BlueLagoon;
+            padding: 20px;
+            color: white;
+        }
+
+        #AB{
+            display: none;
+            
+            @include md{
+                display: list-item;
+                grid-area: AB;
+                background-color: $BlueLagoon;
+                padding: 20px;
+                color: white;
+            }
+        }
+
+        #CA{
+            display: none;
+            
+            @include md{
+                display: list-item;
+                grid-area: CA;
+                background-color: $BlueLagoon;
+                padding: 20px;
+                color: white;
+            }  
+        }
 
     }
 
     #Gallery-Images{
         list-style-type: none;
         display: grid;
-        grid-template-columns: 16px auto 16px;
+        grid-template-columns: auto;
         grid-template-areas: ". Gallery-Images .";
 
         grid-area: Gallery-Images;
@@ -49,25 +126,26 @@
 
         @include md{
             grid-template-areas: "couple2 Couple4"
-            "ring1 couple4"
-            "couple1 table1";
+                                 "ring1 couple4"
+                                 "couple1 table1";
             grid-template-columns: 374px 374px;
         }
 
         @include lg{
-            grid-template-areas: "table2 couple2 couple4"
-            "table2 table1 ring1 couple4"
-            "couple1 couple1 couple4"
-            "couple1 couple1 couple4";
+            grid-template-areas: "table2 table2 couple2 couple2 couple4 couple4"
+            "table2 table2 table1 ring1 couple4 couple4"
+            "couple1 couple1 couple1 couple 1 couple4 couple4"
+            "couple1 couple1 couple1 couple1 couple4 couple4";
             grid-template-columns: 342px 300px 342px;
         }
 
         @include xl{
-            grid-template-areas: "table2 couple2 couple4"
-            "table2 table1 ring1 couple4"
-            "couple1 couple1 couple4"
-            "couple1 couple1 couple4"; 
+            grid-template-areas: "table2 table2 couple2 couple2 couple4 couple4"
+            "table2 table2 table1 ring1 couple4 couple4"
+            "couple1 couple1 couple1 couple 1 couple4 couple4"
+            "couple1 couple1 couple1 couple1 couple4 couple4"; 
             grid-template-columns: 390px 460px 550px;
+        }
 
         #couple1{
             grid-area: couple1;
@@ -91,7 +169,7 @@
 
         #ring1{
             display: none;
-            @include lg{
+            @include md{
                 display: list-item;
                 grid-area: ring1;
             }
@@ -110,6 +188,14 @@
             @include lg{
                 display: list-item;
                 grid-area: table2;
+            }
+        }
+
+        img{
+            width: 320px;
+
+            @include md{
+                width: 374px;
             }
         }
     }

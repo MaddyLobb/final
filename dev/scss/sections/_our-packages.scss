@@ -1,32 +1,61 @@
 #our-packages{
-    
-    img{
-        width: 320px;
+
+    .container{
+        max-height:164px;
+        overflow: hidden;
 
         @include md{
-            width: 311px;
+            max-height: 200px;
+            overflow: hidden;   
         }
 
         @include lg{
-            width: 422px;
+            max-height:305px;
+            overflow: hidden;
+        }
+      }
+      img{
+        width:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include md{
+            width: 800px;
         }
 
-        @include xl{
-            width: 630px;
+        @include lg{
+            width: 1034px;
+        }
+    }
+
+    #video{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include md{
+          width: 620px; 
+        }
+
+        @include lg{
+            width: 940px;
         }
     }
 
     h1{
         text-align: right;
-        margin-left: 97px;
-        margin-right: 16px;
+        margin-left: 16px;
         color: $BrowGrass;
         font-family: 'Roboto', sans-serif;
+        font-size: 50px;
 
         @include md{
             text-align: right;
             margin-left: 20px;
             margin-right: 320px;
+            font-size: 60px;
         }
 
         @include lg{
@@ -42,79 +71,86 @@
         }
     }
 
-    #statement-our-pack{
-      margin: 16px;
-      width: 291px; 
-      background: $BlueLagoon;
-      padding: 20px;
-      color: white;
-      font-family: 'Lora', serif;
-      
-      @include md{
-        margin-left: 293px;
-        margin-right: 226px;  
-      }
 
-        @include lg{
-            margin-left: 471px;
-            margin-right: 305px;
-        }
-
-        @include xl{
-            margin-left: 674px;
-            margin-right: 510px;
-        }
-    
-    }
-
-    ul{
+    #leaf{
         list-style-type: none;
-        margin-left: 55px;
-        margin-right: 32px;
-        width: 230px;
-        background: $MustySky;
-        padding: 20px;
-        color: white;
         font-family: 'Lora', serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+        grid-template-columns: 420px;
+        grid-template-areas: ". leaf .";
+
+        grid-area: leaf;
+        display: grid;
+        gap: 30px;
+        grid-template-areas: "leaf1"
+        "leaf2"
+        "leaf3"
+        "leaf4"
+        "leaf5";
 
         @include md{
-            margin-left: 130px;
-            margin-right: 85px;
-            width: 230px;
+            grid-template-areas: "leaf1 leaf4"
+            "leaf2 leaf5"
+            "leaf3";
+            grid-template-columns: 420px 420px;
         }
 
         @include lg{
-            margin-left: 100px;
-            margin-right: 376px;
-            width: 230px;
+            grid-template-areas: "leaf1 leaf4"
+            "leaf2 leaf5"
+            "leaf3";
+            grid-template-columns: 420px 420px;
         }
 
         @include xl{
-            margin-left: 304px;
-            margin-right: 571px;
-            width: 230px;
+            grid-template-areas: "leaf1 leaf4"
+            "leaf2 leaf5"
+            "leaf3";
+            grid-template-columns: 420px 420px;
         }
 
-    }
-
-    #sign-up-our-pack{
-        text-align: center;
-        color: $BrowGrass;
-        font-family: 'Lora', serif;
-
-        @include md{
-            margin-left: 132px;
-            margin-right: 91px;
+        #leaf1{
+            grid-area: leaf1;
+            display: list-item;
+            background: $MustySky;
+            padding: 20px;
+            color: white;
         }
 
-        @include lg{
-            margin-left: 682px;
-            margin-right: 60px;
+        #leaf2{
+            grid-area: leaf2;
+            display: list-item;
+            background: $MustySky;
+            padding: 20px;
+            color: white;
         }
 
-        @include xl{
-            margin-left: 891px;
-            margin-right: 245px;
+        #leaf3{
+            grid-area: leaf3;
+            display: list-item;
+            background: $MustySky;
+            padding: 20px;
+            color: white;
+        }
+
+        #leaf4{
+            grid-area: leaf4;
+            display: list-item;
+            background: $MustySky;
+            padding: 20px;
+            color: white;
+        }
+
+        #leaf5{
+            grid-area: leaf5;
+            display: list-item;
+            background: $MustySky;
+            padding: 20px;
+            color: white;
         }
     }
 }

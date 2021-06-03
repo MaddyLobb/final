@@ -21,13 +21,18 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/About-Us\/Map.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/About-Us\/Map.jpg" : {
+      "ft" : 16384,
+      "iS" : 69332,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/About-Us\/Map.pdf",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/About-Us\/Map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/About-Us\/Owner.jpg" : {
       "ft" : 16384,
@@ -257,14 +262,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/about-us.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/featured-work.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/featured-work.html",
       "oF" : 0
     },
     "\/dev\/content\/gallery&reviews.kit" : {
@@ -507,20 +504,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_about-us.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_featured-work.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_featured-work.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -1,72 +1,76 @@
 #services{
+    .container{
+        max-height:164px;
+        overflow: hidden;
 
-    img{
-       width: 321px;
+        @include md{
+            max-height: 200px;
+            overflow: hidden;   
+        }
 
-       @include md{
-           width: 373px;
-       }
-       
-       @include lg{
-           width: 503px;
-       }
+        @include lg{
+            max-height:305px;
+            overflow: hidden;
+        }
+      }
+      img{
+        width:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-       @include xl{
-           width: 711px;
-       }
+        @include md{
+            width: 800px;
+        }
+
+        @include lg{
+            width: 1034px;
+        }
     }
 
     h1{
         margin-left: 114px;
         color: $BrowGrass;
         font-family: 'Roboto', sans-serif;
+        font-size: 40px;
 
         @include md{
-            margin-right: 9px;
-            margin-left: 387px;
+            margin-left: 188px;
+            font-size: 60px;
         }
 
         @include lg{
-            margin-right: 118px;
-            margin-left: 521px;
+            margin-left: 116px;
+            font-size: 60px;
         }
         @include xl{
-            margin-left: 720px;
-            margin-right: 325px;
+            margin-left: 430px;
+            font-size: 60px;
         }
     }
 
     ul{
-
-       width: 176px;
-       //height: 386px;
-       margin-left: 68px;
-       margin-right: 68px;
+       width: 288px;
        list-style-type: none;
+       line-height: 20px;
        background: $BlueLagoon;
        padding: 20px;
        color: white;
        font-family: 'Lora', serif;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
 
        @include md{
-        margin-left: 304px;
-        margin-right: 53px; 
-        width: 176px;
-        //height: 382px; 
+        width: 620px; 
        }
 
        @include lg{
-        margin-left: 401px;
-        margin-right: 40px; 
-        width: 260px;
-        //height: 275px; 
+        width: 780px; 
        }
 
        @include xl{
-        margin-right: 202px;
-        margin-left: 594px;
-        width: 300px;
-        //height: 250px;
+        width: 780px;
        }
 
     }

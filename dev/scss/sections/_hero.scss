@@ -1,40 +1,40 @@
 #hero{
-    color: $Heyyyy;
-    text-align: left;
-    padding: 16px;
-    width: 290px;
-    margin-top: 30px;
-    font-family: 'Lora', serif;
-    
-    @include md{
-        width: 492px;
-        margin-left: 138px;
-        margin-right: 138px;
-    }
 
-    @include lg{
-        width: 620px;
-        margin-left: 195px;
-        margin-right: 195px;
+    #sellingpoint{
+        color: $Heyyyy;
+        text-align: left;
+        margin: auto;
+        width: 290px;
+        margin-top: 30px;
+        font-family: 'Lora',serif;
+        
+        
+        @include md{
+            width: 492px;
+            //margin-left: 138px;
+            //margin-right: 138px;
+        }
+    
+        @include lg{
+            width: 620px;
+            //margin-left: 195px;
+            //margin-right: 195px;
+        }   
     }
 
     img{
-        width: 321px;
-        list-style-type: none;
-        display: grid;
-        gap: 30px;
-        grid-template-areas: couple1;
+        width: 100%;
     
         @include md{
-            width: 373px;
+            //width: 768px;
         }
         
         @include lg{
-            width: 503px;
+            //width: 1024px;
         }
     
         @include xl{
-            width: 711px;
+            //width: 1440px;
         }
      }
 }
